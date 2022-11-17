@@ -1,0 +1,16 @@
+- 使用 `3.7 <= clock()-st` 限制暴力运行时间
+`Windows` 系统下 `clock()` 返回值与 `Linux` 下单位不同，必须借用 `CLOCKS_PER_SEC` 进行计算：
+```cpp
+int r = 0, i = 1;
+while (3.7*CLOCKS_PER_SEC >= clock()-st) {
+	r += sqrt(i++);
+}
+```
+注意 `clock()` 函数是系统调用(`system call`)，很慢，最好以一定频率调用：
+```cpp
+int r = 0, i = 1;
+while (true) {
+	if (i % 10000000 == 0 && 3.7*CLOCKS_PER_SEC <= clock() - st) break;
+	r += sqrt(i++);
+}
+```
