@@ -19,3 +19,5 @@ from nyh
 from lrc
 
 **`clang` 不支持 `__int128`，暂时下掉 `clang`，未来改成单独的语言**
+
+### 已解决的问题修改 `display_id` 后，个人页面的索引没有改变
