@@ -21,3 +21,9 @@ from lrc
 **`clang` 不支持 `__int128`，暂时下掉 `clang`，未来改成单独的语言**
 
 ### 已解决的问题修改 `display_id` 后，个人页面的索引没有改变
+
+### 编辑题目信息时 `markdown` 中的 `$$` 公式必须写在一行
+for sword
+
+### 题目列表应该按 `display_id` 排序
+for sword
