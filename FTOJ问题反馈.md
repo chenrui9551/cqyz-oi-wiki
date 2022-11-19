@@ -23,7 +23,10 @@ from lrc
 ### 已解决的问题修改 `display_id` 后，个人页面的索引没有改变
 
 ### 编辑题目信息时 `markdown` 中的 `$$` 公式必须写在一行
-for sword
+from sword
 
 ### 题目列表应该按 `display_id` 排序
-for sword
+from sword
+
+### 题目列表将本题库的题目靠前展示
+from shuyumo
