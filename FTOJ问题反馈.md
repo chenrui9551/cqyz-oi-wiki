@@ -1,3 +1,4 @@
+## 待修
 ### 管理员无法查看赛时全榜（只能看到普通用户）
 
 由于部分学生作为管理员需要传题，但目前默认只显示非 `Super admin` 的用户排名
@@ -25,8 +26,10 @@ from lrc
 ### 编辑题目信息时 `markdown` 中的 `$$` 公式必须写在一行
 from sword
 
-### 题目列表应该按 `display_id` 排序
-from sword
-
 ### 题目列表将本题库的题目靠前展示
 from shuyumo
+
+## 已修
+
+### 题目列表应该按 `display_id` 排序
+from sword
