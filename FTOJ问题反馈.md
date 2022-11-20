@@ -29,6 +29,9 @@ from sword
 ### 题目列表将本题库的题目靠前展示
 from shuyumo
 
+### OI赛制比赛排名显示代码运行时间
+from chery
+
 ## 已修
 
 ### 题目列表应该按 `display_id` 排序
