@@ -32,6 +32,9 @@ from shuyumo
 ### OI赛制比赛排名显示代码运行时间
 from chery
 
+### 提交详情页显示题目、提交时间、分数等信息
+from chery
+
 ## 已修
 
 ### 题目列表应该按 `display_id` 排序
